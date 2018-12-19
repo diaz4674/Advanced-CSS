@@ -6,6 +6,7 @@ body {
 h1 {
     text-align: center;
     font-weight: 300;
+    font-size: 2rem;
 }
 
 .btn {
@@ -34,4 +35,51 @@ h1 {
 .btn:active {
     box-shadow: none;
     top: 6px;
+}
+
+.translate {
+    margin: 50px 20px;
+}
+
+.translateP, .move-right, .move-down {
+    width: 50px;
+    height: 50px;
+    background-color: #1abc9c;
+}
+
+.move-right {
+    background-color: #3498db;
+    transform: translateX(100px);
+}
+
+.move-down {
+    background-color: purple;
+    transform: translateY(20px);
+}
+
+.move-right:hover, .move-down:hover, .translateP:hover {
+    transform: translate(20px, 20px);
+}
+
+.transform, .transformedP {
+    width: 50px;
+    height: 50px;
+    background-color: #1abc9c;
+    color: #ecf0f1;
+    border: 2px solid #2c3e50;
+}
+
+.transformedP {
+    background-color: #3498db;
+    transform: scale(2);
+    transform-origin: 0 0;
+}
+
+.transformed {
+    margin: 80px 20px;
+}
+
+.container {
+    font-size: 62.5%;
+    margin: 0 auto;
 }
