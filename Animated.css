@@ -1,22 +1,23 @@
 body {
     background-color: #fcd04b;
     color: white;
-}
-
-h1 {
+ }
+ 
+ h1 {
     text-align: center;
-    font-weight: 300;
     font-size: 2rem;
-}
-
-.btn {
+    -webkit-text-stroke: .5px black;
+    font-family: 'Luckiest Guy', cursive;
+ }
+ 
+ .btn {
     outline: none;
     border: none;
     cursor: pointer;
     display: block;
     position: relative;
     background-color: #fcad26;
-    font-size: 16px;
+    font-size: 3em;
     font-weight: 300px;
     color: white;
     text-transform: uppercase;
@@ -25,61 +26,125 @@ h1 {
     margin: 0 auto;
     border-radius: 20px;
     box-shadow: 0 6px #efa424;
-}
-
-.btn:hover {
+    font-family: 'Luckiest Guy', cursive;
+    -webkit-text-stroke: .5px black;
+ }
+ 
+ .btn:hover {
     box-shadow: 0 4px #efa424;
     top: 2px;
-}
-
-.btn:active {
+ }
+ 
+ .btn:active {
     box-shadow: none;
     top: 6px;
-}
-
-.translate {
+ }
+ 
+ .translate {
     margin: 50px 20px;
-}
-
-.translateP, .move-right, .move-down {
+ }
+ 
+ .translateP, .move-right, .move-down {
     width: 50px;
     height: 50px;
     background-color: #1abc9c;
-}
-
-.move-right {
+ }
+ 
+ .move-right {
     background-color: #3498db;
     transform: translateX(100px);
-}
-
-.move-down {
+ }
+ 
+ .move-down {
     background-color: purple;
     transform: translateY(20px);
-}
-
-.move-right:hover, .move-down:hover, .translateP:hover {
+ }
+ 
+ .move-right:hover, .move-down:hover, .translateP:hover {
     transform: translate(20px, 20px);
-}
-
-.transform, .transformedP {
+ }
+ 
+ .transform, .transformedP {
     width: 50px;
     height: 50px;
     background-color: #1abc9c;
     color: #ecf0f1;
     border: 2px solid #2c3e50;
-}
-
-.transformedP {
+ }
+ 
+ .transformedP {
     background-color: #3498db;
     transform: scale(2);
     transform-origin: 0 0;
-}
-
-.transformed {
+ }
+ 
+ .transformed {
     margin: 80px 20px;
-}
-
-.container {
+ }
+ 
+ .container {
     font-size: 62.5%;
     margin: 0 auto;
-}
+ }
+ 
+ .rotateP, .rotate {
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    border: 2px solid #2c3e50;
+ }
+ 
+ .rotate {
+    background-color: #9b59b6;
+    transform: rotate(90deg) scale(2);
+    margin: 40px 30px;
+ }
+ .box {
+    background: #9b59b6;
+    height: 100px;
+    width: 100px;
+    line-height:100px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+ }
+ 
+ .animated {
+    transition-property: background, border-radius, transform;
+    transition: 3s, 1s;
+    transition-delay: 5s, .3s, .3s;
+ }
+ 
+ .box:hover {
+    background: #e74c3c;
+    transform-origin: top left;
+    transform: scale(2);
+    border-radius: 50px;
+    margin: 10px;
+ }
+ 
+ .transition, .trans {
+    width: 150px;
+    height: 100px;
+    background: teal;
+    line-height: 100px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+ }
+ 
+ .transition:hover, .trans:hover {
+    transform: translateX(300px);
+ }
+ 
+ .transition {
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1;
+ }
+ 
+ 
+ 
+ 
