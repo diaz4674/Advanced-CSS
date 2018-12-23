@@ -1,150 +1,186 @@
 body {
-    background-color: #fcd04b;
-    color: white;
- }
- 
- h1 {
-    text-align: center;
-    font-size: 2rem;
-    -webkit-text-stroke: .5px black;
-    font-family: 'Luckiest Guy', cursive;
- }
- 
- .btn {
-    outline: none;
-    border: none;
-    cursor: pointer;
-    display: block;
-    position: relative;
-    background-color: #fcad26;
-    font-size: 3em;
-    font-weight: 300px;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 25px 80px;
-    margin: 0 auto;
-    border-radius: 20px;
-    box-shadow: 0 6px #efa424;
-    font-family: 'Luckiest Guy', cursive;
-    -webkit-text-stroke: .5px black;
- }
- 
- .btn:hover {
-    box-shadow: 0 4px #efa424;
-    top: 2px;
- }
- 
- .btn:active {
-    box-shadow: none;
-    top: 6px;
- }
- 
- .translate {
-    margin: 50px 20px;
- }
- 
- .translateP, .move-right, .move-down {
-    width: 50px;
-    height: 50px;
-    background-color: #1abc9c;
- }
- 
- .move-right {
-    background-color: #3498db;
-    transform: translateX(100px);
- }
- 
- .move-down {
-    background-color: purple;
-    transform: translateY(20px);
- }
- 
- .move-right:hover, .move-down:hover, .translateP:hover {
-    transform: translate(20px, 20px);
- }
- 
- .transform, .transformedP {
-    width: 50px;
-    height: 50px;
-    background-color: #1abc9c;
-    color: #ecf0f1;
-    border: 2px solid #2c3e50;
- }
- 
- .transformedP {
-    background-color: #3498db;
-    transform: scale(2);
-    transform-origin: 0 0;
- }
- 
- .transformed {
-    margin: 80px 20px;
- }
- 
- .container {
-    font-size: 62.5%;
-    margin: 0 auto;
- }
- 
- .rotateP, .rotate {
-    width: 50px;
-    height: 50px;
-    background-color: #e74c3c;
-    color: #ecf0f1;
-    border: 2px solid #2c3e50;
- }
- 
- .rotate {
-    background-color: #9b59b6;
-    transform: rotate(90deg) scale(2);
-    margin: 40px 30px;
- }
- .box {
-    background: #9b59b6;
-    height: 100px;
-    width: 100px;
-    line-height:100px;
-    text-align: center;
-    color: white;
-    font-size: 17px;
-    border-radius: 20px;
- }
- 
- .animated {
-    transition-property: background, border-radius, transform;
-    transition: 3s, 1s;
-    transition-delay: 5s, .3s, .3s;
- }
- 
- .box:hover {
-    background: #e74c3c;
-    transform-origin: top left;
-    transform: scale(2);
-    border-radius: 50px;
-    margin: 10px;
- }
- 
- .transition, .trans {
-    width: 150px;
-    height: 100px;
-    background: teal;
-    line-height: 100px;
-    text-align: center;
-    font-size: 17px;
-    border-radius: 20px;
- }
- 
- .transition:hover, .trans:hover {
-    transform: translateX(300px);
- }
- 
- .transition {
-    transition-property: transform;
-    transition-duration: 1s;
-    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1;
- }
- 
- 
- 
- 
+   background-color: #fcd04b;
+   color: white;
+}
+
+h1 {
+   text-align: center;
+   font-size: 2rem;
+   -webkit-text-stroke: .5px black;
+   font-family: 'Luckiest Guy', cursive;
+}
+
+.btn {
+   outline: none;
+   border: none;
+   cursor: pointer;
+   display: block;
+   position: relative;
+   background-color: #fcad26;
+   font-size: 3em;
+   font-weight: 300px;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   padding: 25px 80px;
+   margin: 0 auto;
+   border-radius: 20px;
+   box-shadow: 0 6px #efa424;
+   font-family: 'Luckiest Guy', cursive;
+   -webkit-text-stroke: .5px black;
+}
+
+.btn:hover {
+   box-shadow: 0 4px #efa424;
+   top: 2px;
+}
+
+.btn:active {
+   box-shadow: none;
+   top: 6px;
+}
+
+.squareDance {
+   display: block;
+   align-items: center;
+   padding: 10px;
+}
+
+.couple1, .couple2 {
+   display: flex;
+   justify-content: center;
+}
+
+.translateTitle {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.translate {
+   font-family: 'Luckiest Guy', cursive;
+   -webkit-text-stroke: .5px black;
+   font-size: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   margin: 50px 20px;
+}
+
+
+.translateP, .move-right, .move-down {
+   width: 50px;
+   height: 50px;
+   background-color: #1abc9c;
+}
+
+.move-right {
+   background-color: #3498db;
+}
+
+.move-down {
+   background-color: purple;
+}
+
+.move-right, .move-down, .translateP {
+   margin: 5px;
+}
+.move-right:hover, .move-down:hover, .translateP:hover {
+   transform: translate(20px, 20px);
+}
+
+
+
+.rotateP, .rotate {
+   width: 60;
+   height: 60;
+   background-color: #e74c3c;
+   color: #ecf0f1;
+   border: 2px solid #2c3e50;
+   padding: 4px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.rotate {
+   background-color: #9b59b6;
+   transform: rotate(180deg) scale(2);
+   margin: 40px 30px;
+  
+}
+.animatedBox, .box {
+   background: #9b59b6;
+   height: 100px;
+   width: 100px;
+   line-height:100px;
+   text-align: center;
+   color: white;
+   font-size: 17px;
+   border-radius: 20px;
+}
+
+.rotateDiv {
+   margin: 25px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.circle {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px;
+}
+
+.animatedBox {
+   transition: background 3s linear 5s;
+   transition-property: background, border-radius, transform;
+   transition: 3s, 1s;
+   transition-delay: 5s, .3s, .3s;
+}
+
+.animatedBox:hover, .box:hover {
+   background: #e74c3c;
+   transform-origin: top left;
+   transform: scale(2);
+   border-radius: 50px;
+   margin: 100px;
+}
+
+.transition, .trans {
+   width: 150px;
+   height: 100px;
+   background: teal;
+   line-height: 100px;
+   text-align: center;
+   font-size: 17px;
+   border-radius: 20px;
+}
+
+
+.transition:hover, .trans:hover {
+   transform: translateX(300px);
+   background-color: red;
+}
+
+.transition {
+   transition: transform 1s ease-in, background-color .5s linear .4s;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+}
+
+.container {
+   font-size: 62.5%;
+   margin: 0 auto;
+}
+
+.transitionDiv {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
